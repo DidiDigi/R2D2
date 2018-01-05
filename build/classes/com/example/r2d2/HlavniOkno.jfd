@@ -1,0 +1,437 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_40" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"defaultCloseOperation": 2
+			"title": "R2D2"
+			"$locationPolicy": 1
+			"$sizePolicy": 1
+			"type": enum java.awt.Window$Type POPUP
+			auxiliary() {
+				"JavaCodeGenerator.postInitCode": "this.contentPane = (JPanel) this.getContentPane();\nthis.contentPane.setBackground(this.getBackground());"
+			}
+			addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "priStisknutiKlavesy", true ) )
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowOpened", "priOtevreniOkna", true ) )
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosed", "priZavreniOkna", true ) )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labRobot"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/r2d2-vpravo.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 245
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labDarthVader"
+				"icon": &SwingIcon0 new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/darth_vader.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 680
+				"y": 415
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labDarthVader2"
+				"icon": #SwingIcon0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 50
+				"height": 50
+				"x": 630
+				"y": 250
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labDarthVader3"
+				"icon": #SwingIcon0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 50
+				"height": 50
+				"x": 215
+				"y": 255
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labYoda"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/yoda.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 595
+				"y": 90
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labCil"
+				"focusable": false
+				"opaque": true
+				"background": &Color0 new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 90
+				"x": 870
+				"y": 230
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 885
+				"height": 15
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 85
+				"height": 15
+				"x": 15
+				"y": 150
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 190
+				"y": 15
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 215
+				"x": 0
+				"y": 15
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label10"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 855
+				"height": 15
+				"x": 15
+				"y": 560
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 130
+				"x": 100
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label12"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 260
+				"x": 0
+				"y": 315
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label13"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 85
+				"height": 15
+				"x": 15
+				"y": 395
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label14"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 165
+				"x": 100
+				"y": 315
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 170
+				"height": 15
+				"x": 205
+				"y": 155
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label15"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 145
+				"x": 280
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label16"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 170
+				"height": 15
+				"x": 205
+				"y": 390
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label17"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 145
+				"x": 280
+				"y": 330
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label18"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 180
+				"y": 245
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label19"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 70
+				"x": 380
+				"y": 250
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label21"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 85
+				"height": 15
+				"x": 785
+				"y": 150
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label22"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 130
+				"x": 770
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label23"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 85
+				"height": 15
+				"x": 785
+				"y": 370
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label24"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 130
+				"x": 770
+				"y": 315
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label25"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 170
+				"height": 15
+				"x": 495
+				"y": 155
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label26"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 145
+				"x": 570
+				"y": 95
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label27"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 145
+				"x": 570
+				"y": 330
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label28"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 170
+				"height": 15
+				"x": 495
+				"y": 390
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label29"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 690
+				"y": 240
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label20"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 85
+				"height": 15
+				"x": 390
+				"y": 305
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label30"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 70
+				"x": 475
+				"y": 250
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label31"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 695
+				"y": 15
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label32"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 180
+				"y": 485
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label33"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 430
+				"y": 15
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label34"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 435
+				"y": 485
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label35"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 75
+				"x": 695
+				"y": 485
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label36"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 260
+				"x": 870
+				"y": 315
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label11"
+				"focusable": false
+				"opaque": true
+				"background": #Color0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 215
+				"x": 870
+				"y": 15
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 900, 615 )
+		} )
+	}
+}
